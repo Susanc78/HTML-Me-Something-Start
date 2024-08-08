@@ -1,1 +1,102 @@
 /* Write your CSS here! */
+
+
+/* ELEMENTS */
+
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(65,1, 46); 
+  background-color: #ffffff;
+  font-weight: 100;
+  width: 100vw;
+  height: 100vh;
+  margin: 10px 10px 10px 10px;
+}
+
+header {
+  text-align: center;
+  color: rgb(65,1, 46);
+  background-color: rgba(241, 161, 217, 0.132);
+  padding: 10px;    
+  outline: rgb(65,1, 46) dotted;   
+}
+
+main {
+  width: 100vw;
+  padding: 10px 10px;
+}
+
+footer {
+  text-align: center;
+  color: rgb(65,1, 46);
+  background-color: rgba(241, 161, 217, 0.132);
+  padding: 10px;    
+  outline: rgb(65,1, 46) dotted;
+}
+
+h1 {
+  font-size: 2.25rem;
+  color: rgb(65,1, 46);
+  font-style: italic;
+}
+
+h3 {
+  font-size: 24px;
+  color: #ffffff;
+  background-color: rgb(65,1, 46);
+  padding: 10px 10px;
+}
+
+h4 {
+  font-family: "sofia";
+  font-size: 20px;
+  padding: 0px 10px;
+  margin: 10px 10px;
+  font-style: italic;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0px 10px;
+}
+
+li {
+  font-size: 16px;
+  padding: 0px 10px;
+  font-style: italic;
+}
+
+
+/* IDS */
+#titlename {
+  color: rgb(65,1, 46);
+  font-family: "Rouge Script";
+  font-size:4rem;
+  margin-bottom: 0px;
+  background: radial-gradient(circle, rgba(241, 161, 217, 0.132), rgba(65, 1, 46, 0.617));
+  outline-color: rgb(65,1, 46);
+  outline-style: double;
+  outline-width: 5px
+}
+
+#figcaption {
+  font-size: 14px;
+  font-family: "Englebert";
+  padding: 5px 0px;
+}
+
+
+/* CLASSES */
+.outlineLists {
+  border: 1px dotted rgb(65,1, 46);
+  width: 100%;
+  margin: 10px 10px;
+}
+
+.sectionOutline {
+  border: 1px dotted rgb(65,1, 46);
+  width: 100%;
+  margin: 10px 10px;
+  padding: 0px 5px;
+}
